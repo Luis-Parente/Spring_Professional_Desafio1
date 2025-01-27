@@ -2,6 +2,9 @@ package com.devsuperior.desafio1.entities;
 
 import java.util.Objects;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+@EntityScan
 public class Order {
 
 	private Integer code;
